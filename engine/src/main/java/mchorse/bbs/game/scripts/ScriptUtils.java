@@ -28,7 +28,7 @@ public class ScriptUtils
 
         try
         {
-            Class factoryClass = Class.forName("jdk.nashorn.api.scripting.NashornScriptEngineFactory");
+            Class<?> factoryClass = Class.forName("org.openjdk.nashorn.api.scripting.NashornScriptEngineFactory");
             Object factory = factoryClass.getConstructor().newInstance();
             Method getScriptEnging = factoryClass.getDeclaredMethod("getScriptEngine");
 

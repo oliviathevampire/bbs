@@ -79,5 +79,6 @@ ext.commonDependencies.addAll([
     "org.ow2.asm:asm-util:9.2",
     "org.bytedeco:javacv:1.5.8",
     "org.bytedeco:javacpp:1.5.8",
-    "org.bytedeco:ffmpeg:5.1.2-1.5.8"
+    "org.bytedeco:ffmpeg:5.1.2-1.5.8",
+    "org.openjdk.nashorn:nashorn-core:15.0"
 ])

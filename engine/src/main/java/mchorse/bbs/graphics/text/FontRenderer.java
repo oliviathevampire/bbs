@@ -22,7 +22,7 @@ import java.util.List;
 
 public class FontRenderer
 {
-    public static final char FORMATTING_CHARACTER = '§';
+    public static final char FORMATTING_CHARACTER = '\u00A7';
     public static final String FORMATTING_STRING = "§";
 
     private static final Color WHITE = Color.white();

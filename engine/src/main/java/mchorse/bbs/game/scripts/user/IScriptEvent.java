@@ -1,8 +1,8 @@
 package mchorse.bbs.game.scripts.user;
 
-import jdk.nashorn.api.scripting.ScriptObjectMirror;
 import mchorse.bbs.game.scripts.user.entities.IScriptEntity;
 import mchorse.bbs.game.scripts.user.entities.IScriptPlayer;
+import org.openjdk.nashorn.api.scripting.ScriptObjectMirror;
 
 import java.util.Map;
 
